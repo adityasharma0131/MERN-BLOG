@@ -6,7 +6,7 @@ const Header = () => {
   const user = true;
   return (
     <div className="flex items-center justify-between px-6 md:px-[200px] py-4">
-      <h1 className="text-lg md: text:xl font-extrabold border-black border-2 p-1">
+      <h1 className="text-lg md:text-xl font-extrabold border-black border-2 p-1">
         <Link to="/">MERN-BLOG</Link>
       </h1>
       <div className="flex justify-center items-center space-x-2 md:space-x-4">
@@ -27,7 +27,6 @@ const Header = () => {
             <Link to="/login">Login</Link>
           </h3>
         )}
-
         {user ? (
           <h3>
             <Link to="/profile">Profile</Link>
