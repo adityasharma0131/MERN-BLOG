@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
-  const user = true;
+  const user = false;
   return (
     <div className="flex items-center justify-between px-6 md:px-[200px] py-4">
       <h1 className="text-lg md:text-xl font-extrabold border-black border-2 p-1">
